@@ -1,0 +1,104 @@
+body{
+    background-color: #222831;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+#card{
+    background-color: #31363F;
+    height: 45rem;
+    width: 50rem;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    transition: 2s;
+}  
+
+#card:hover{
+    box-shadow: 0px 0px 30px #76ABAE;
+}
+
+#calculator{
+    background-color: #F8F4EC;
+    height: 40rem;
+    width: 30rem;
+    border-radius: 30px;
+    border: solid black 3px;
+    transition: 1s;
+}
+
+#calculator:hover{
+    box-shadow: 0 0 25px whitesmoke;
+}
+
+#display{
+    height: 7rem;
+    display: block;
+    text-align: center;
+}
+
+#display-area{
+    width: 23rem;
+    height: 5rem;
+    border-radius: 30px;
+    font-size: 3rem;
+    text-align: end;
+    padding: 0 2rem;
+    background-color: #FFFAF4;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    box-shadow:inset 0 0 100px -20px;
+    transition: 0.7s;
+}
+
+#display-area:hover{
+    font-size: 4rem;
+}
+
+#button{
+    display: grid;
+    height: fit-content;
+    grid-template-columns: [line1] 5rem [line2] 5rem [line3] 5rem [line4] 5rem [line5];
+    grid-template-rows: [line1] 5rem [line2] 5rem [line3] 5rem [line4] 5rem [line5];
+    column-gap: 1.5rem;
+    row-gap: 1.5rem;
+    justify-content: center;
+    height: 28rem;
+    padding-top: 5rem;
+}
+
+.btn{
+    height: 80px;
+    width: 80px;
+    border-radius: 20px;
+    font-size: 2rem;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 66%, rgba(0, 0, 0, 1) 180%);
+    transition: 0.5s;
+}
+
+.btn:hover{
+    font-size: 3rem;
+}
+
+.symbol{
+    background-color: #45474B;
+    color: whitesmoke;
+}
+
+.symbol:hover{
+    background-color: #000000;
+}
+
+.clear{
+    background-color: #EA5455;
+}
+
+.clear:hover{
+    background-color: #FF2400;
+}
+
+.number:hover{
+    background-color: rgb(255, 255, 255);
+}
